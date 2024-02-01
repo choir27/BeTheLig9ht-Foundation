@@ -1,0 +1,22 @@
+{
+  "name": "betheli9htfoundation",
+  "version": "1.0.0",
+  "description": "web application for the non-profit organization, betheli9ht foundation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "richard choi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.51",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "next": "^14.1.0"
+  }
+}

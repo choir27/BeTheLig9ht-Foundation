@@ -1,0 +1,68 @@
+/*Flex
+========================================================================== */
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+/*JustifyContent
+========================================================================== */
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.justifyEnd{
+    justify-content: flex-end;
+}
+
+.justifyStart{
+    justify-content: flex-start;
+}
+
+.justifyBetween{
+    justify-content: space-between;
+}
+
+.justifyAround{
+    justify-content: space-around;
+}
+
+.justifyEvenly{
+    justify-content: space-evenly;
+}
+
+/*AlignItems
+========================================================================== */
+
+.alignCenter{
+    align-items: center;
+}
+
+.alignEnd{
+    align-items: flex-end;
+}
+
+.alignStart{
+    align-items: flex-start;
+}
+
+/*Text
+========================================================================== */
+
+.phone{
+    font-size: 2.313rem;
+	font-weight: 700;
+	color: rgb(21,21,21);
+    overflow-wrap: break-word;
+    max-width: 100%;
+    line-height: 1.5;
+}
