@@ -1,68 +1,71 @@
 /*Flex
 ========================================================================== */
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.column{
-    flex-direction: column;
+.column {
+  flex-direction: column;
 }
 
-.row{
-    flex-direction: row;
+.row {
+  flex-direction: row;
 }
 
 /*JustifyContent
 ========================================================================== */
 
-.justifyCenter{
-    justify-content: center;
+.justifyCenter {
+  justify-content: center;
 }
 
-.justifyEnd{
-    justify-content: flex-end;
+.justifyEnd {
+  justify-content: flex-end;
 }
 
-.justifyStart{
-    justify-content: flex-start;
+.justifyStart {
+  justify-content: flex-start;
 }
 
-.justifyBetween{
-    justify-content: space-between;
+.justifyBetween {
+  justify-content: space-between;
 }
 
-.justifyAround{
-    justify-content: space-around;
+.justifyAround {
+  justify-content: space-around;
 }
 
-.justifyEvenly{
-    justify-content: space-evenly;
+.justifyEvenly {
+  justify-content: space-evenly;
 }
 
 /*AlignItems
 ========================================================================== */
 
-.alignCenter{
-    align-items: center;
+.alignCenter {
+  align-items: center;
 }
 
-.alignEnd{
-    align-items: flex-end;
+.alignEnd {
+  align-items: flex-end;
 }
 
-.alignStart{
-    align-items: flex-start;
+.alignStart {
+  align-items: flex-start;
 }
 
 /*Text
 ========================================================================== */
 
-.phone{
-    font-size: 2.313rem;
-	font-weight: 700;
-	color: rgb(21,21,21);
-    overflow-wrap: break-word;
-    max-width: 100%;
-    line-height: 1.5;
+.phone {
+  font-size: 1.875rem;
+  color: rgb(21, 21, 21);
+  overflow-wrap: break-word;
+  text-decoration: none;
+  display: inline;
+  max-width: 100%;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: "Open Sans", arial, sans-serif;
 }
