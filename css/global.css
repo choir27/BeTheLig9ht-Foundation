@@ -131,6 +131,18 @@ table {
   border-spacing: 0;
 }
 
+/*General
+========================================================================== */
+
+main {
+  max-width: 100%;
+  padding: 0rem 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*Font
 ========================================================================== */
 
@@ -183,7 +195,16 @@ header nav ul li {
   font-weight: 300;
 }
 
-main {
-  max-width: 100%;
-  padding: 0rem 1.5rem;
+header nav a:hover {
+  animation: 0.5s linear 0s slide alternate infinite;
+}
+
+@keyframes slide {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 10%;
+  }
 }
