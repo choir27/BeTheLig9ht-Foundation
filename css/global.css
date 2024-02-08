@@ -190,9 +190,13 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125rem;
   font-family: "Open Sans", arial, sans-serif;
-  font-weight: 300;
+}
+
+header nav ul li a{
+  font-weight: 400;
+  color: black;
+  font-size: 1.25rem;
 }
 
 header nav a:hover {
@@ -208,3 +212,27 @@ header nav a:hover {
     opacity: 10%;
   }
 }
+
+/* Hero
+========================================================================== */
+
+img{
+    width: 100%;
+}
+
+h2, h3, h4, h1{
+  text-align: center;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h4{
+  font-size: 1.2rem;
+}
+

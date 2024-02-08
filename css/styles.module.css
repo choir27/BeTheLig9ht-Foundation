@@ -55,7 +55,7 @@
   align-items: flex-start;
 }
 
-/*Text
+/*Header
 ========================================================================== */
 
 .phone {
@@ -77,24 +77,62 @@
 
 .heading1 {
   margin: 0 auto;
-  transition: opacity 2s ease-in-out;
-  animation: 1s linear 1s borderHover alternate infinite;
+  transition: opacity .5s ease-in-out;
 }
 
 .heading1:hover {
   opacity: 70%;
 }
 
-@keyframes borderHover {
-  0% {
-    border-bottom: none;
-  }
 
-  50% {
-    border-bottom: 1px solid rgb(65, 61, 61);
-  }
+/*Hero
+========================================================================== */
 
-  100% {
-    border-bottom: 1px solid rgb(0, 0, 0);
-  }
+.hero{
+  margin-bottom: 2rem;
+}
+
+.hero, .cory{
+  background: #F2F3FB;
+  width: 100%;
+}
+
+.hero .imageContainer{
+  width: 70%;
+}
+
+.hero section{
+ width: 40%;
+}
+
+.hero h2{
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.cory section{
+  padding: 2rem;
+  width: 50%;
+}
+
+.cory p, .cory span{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.cory p{
+  margin-bottom: 2rem;
+}
+
+.cory h2{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.cory .imageContainer{
+  width: 40%;
 }

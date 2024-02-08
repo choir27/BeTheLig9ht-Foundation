@@ -15,7 +15,7 @@ export default function RootLayout({
           crossOrigin="use-credentials"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@700;300&display=swap"
           rel="stylesheet"
         />
         <title>BeTheLi9ht Foundation</title>
