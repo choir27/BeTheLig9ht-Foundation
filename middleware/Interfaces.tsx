@@ -4,3 +4,7 @@ export interface ButtonLinkInterface {
   className?: string;
   key?: string;
 }
+
+export interface ButtonInterface extends ButtonLinkInterface {
+  onClick: () => void;
+}

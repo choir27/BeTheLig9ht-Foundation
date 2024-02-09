@@ -67,7 +67,7 @@
   max-width: 100%;
   line-height: 1.5;
   font-weight: 300;
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .active {
@@ -77,62 +77,87 @@
 
 .heading1 {
   margin: 0 auto;
-  transition: opacity .5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .heading1:hover {
   opacity: 70%;
 }
 
-
 /*Hero
 ========================================================================== */
 
-.hero{
+.hero {
   margin-bottom: 2rem;
 }
 
-.hero, .cory{
-  background: #F2F3FB;
+.hero,
+.cory {
+  background: #f2f3fb;
   width: 100%;
 }
 
-.hero .imageContainer{
+.hero .imageContainer {
   width: 70%;
 }
 
-.hero section{
- width: 40%;
+.hero section {
+  width: 40%;
 }
 
-.hero h2{
+.hero h2 {
   margin-bottom: 1rem;
   margin-top: 4rem;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
-.cory section{
+/*origin
+========================================================================== */
+
+.origin section {
   padding: 2rem;
   width: 50%;
 }
 
-.cory p, .cory span{
+.origin p,
+.origin span {
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
-.cory p{
+.origin p {
   margin-bottom: 2rem;
 }
 
-.cory h2{
+.origin h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2rem;
   margin-bottom: 4rem;
 }
 
-.cory .imageContainer{
+.origin .imageContainer {
   width: 40%;
+}
+
+.form {
+  margin: 2rem 2rem;
+  width: 100%;
+}
+
+.form label {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form input {
+  width: 30%;
+  padding-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+aside .imageContainer {
+  width: 20%;
 }
