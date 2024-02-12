@@ -88,17 +88,18 @@
 ========================================================================== */
 
 .hero {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .hero,
-.cory {
+.origin {
   background: #f2f3fb;
   width: 100%;
 }
 
 .hero .imageContainer {
   width: 70%;
+  background: white;
 }
 
 .hero section {
@@ -117,32 +118,48 @@
 
 .origin section {
   padding: 2rem;
-  width: 50%;
+  width: 80%;
 }
 
 .origin p,
 .origin span {
   font-size: 1.5rem;
   line-height: 1.5;
+  font-weight: 300;
 }
 
-.origin p {
+.origin h2 + p {
+  margin-bottom: 4rem;
+}
+
+.origin p + p {
+  margin-bottom: 0.5rem;
+}
+
+.origin p + span {
   margin-bottom: 2rem;
 }
 
 .origin h2 {
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .origin .imageContainer {
-  width: 40%;
+  width: 100%;
 }
 
+.origin .imageContainer {
+  background: #6fb0fc;
+}
+
+/* Aside/Form
+========================================================================== */
+
 .form {
-  margin: 2rem 2rem;
+  margin: 3rem 2rem 6rem 2rem;
   width: 100%;
 }
 
@@ -160,4 +177,16 @@
 
 aside .imageContainer {
   width: 20%;
+}
+
+/* Footer
+========================================================================== */
+
+.icons li i,
+.icons li svg {
+  font-size: 2rem;
+}
+
+.icons {
+  width: 15%;
 }
