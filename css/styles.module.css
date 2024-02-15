@@ -59,6 +59,7 @@
 ========================================================================== */
 
 .phone {
+  margin: 0 1.5rem 0 auto;
   font-size: 1.875rem;
   color: rgb(21, 21, 21);
   overflow-wrap: break-word;
@@ -67,7 +68,6 @@
   max-width: 100%;
   line-height: 1.5;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
 }
 
 .active {
@@ -103,7 +103,7 @@
 }
 
 .hero section {
-  width: 40%;
+  width: 100%;
 }
 
 .hero h2 {
@@ -188,5 +188,6 @@ aside .imageContainer {
 }
 
 .icons {
-  width: 15%;
+  width: 35%;
+  margin-bottom: 0.5rem;
 }

@@ -4,8 +4,10 @@ import Nav from "./Nav";
 
 export default function Header() {
   return (
-    <header>
-      <section className={styles.flex}>
+    <header className={`${styles.flex} ${styles.column}`}>
+      <section
+        className={`${styles.flex} ${styles.justifyBetween} ${styles.alignCenter}`}
+      >
         <Link href="/" className={styles.heading1}>
           <h1>BeTheLig9ht Foundation</h1>
         </Link>

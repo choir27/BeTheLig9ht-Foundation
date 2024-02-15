@@ -7,29 +7,28 @@ export default function Footer() {
 
   return (
     <footer className={`${styles.flex} ${styles.column} ${styles.alignCenter}`}>
-      <section className={`${styles.flex} ${styles.justifyBetween}`}>
-        <small>
-          COPYRIGHT &copy; {date.getFullYear()} BETHELI9HT FOUNDATION - ALL
-          RIGHTS RESERVED
-        </small>
-
-        <address>
-          <ul
-            className={`${styles.flex} ${styles.icons} ${styles.justifyBetween}`}
-          >
-            <li>
-              <i className="fa-brands fa-x-twitter"></i>
-            </li>
-            <li>
-              <FaFacebook />
-            </li>
-            <li>
-              <FaInstagram />
-            </li>
-          </ul>
-          <a href="">125 RAILROAD AVE, SUITE 2, HIGHTSTOWN, NJ 08520</a>
-        </address>
-      </section>
+      <address
+        className={`${styles.flex} ${styles.column} ${styles.alignCenter}`}
+      >
+        <ul
+          className={`${styles.flex} ${styles.icons} ${styles.justifyBetween}`}
+        >
+          <li>
+            <i className="fa-brands fa-x-twitter"></i>
+          </li>
+          <li>
+            <FaFacebook />
+          </li>
+          <li>
+            <FaInstagram />
+          </li>
+        </ul>
+        <a href="">125 RAILROAD AVE, SUITE 2, HIGHTSTOWN, NJ 08520</a>
+      </address>
+      <small>
+        COPYRIGHT &copy; {date.getFullYear()} BETHELI9HT FOUNDATION - ALL RIGHTS
+        RESERVED
+      </small>
 
       <Nav />
     </footer>

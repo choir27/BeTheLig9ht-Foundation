@@ -133,7 +133,9 @@ table {
 .hidden {
   display: none;
 }
-
+html {
+  font-family: "Roboto", sans-serif;
+}
 /*General
 ========================================================================== */
 
@@ -178,14 +180,14 @@ small,
   text-transform: none;
   letter-spacing: 0.05rem;
   line-height: 1;
-  font-family: "Roboto", sans-serif;
 }
 
 /* Header
 ========================================================================== */
 
-header {
-  width: 100%;
+header section {
+  align-self: flex-end;
+  width: 72%;
 }
 
 header,
@@ -193,7 +195,8 @@ header nav ul {
   padding: 2rem 1.5rem;
 }
 
-header nav ul {
+header nav ul,
+footer nav ul {
   margin: 0rem auto;
   display: inline;
   max-width: 100%;
@@ -203,17 +206,15 @@ header nav ul {
   letter-spacing: normal;
 }
 
-header nav ul li {
-  font-family: "Roboto", sans-serif;
-}
-
-header nav ul li a {
+header nav ul li a,
+footer nav ul li a {
   font-weight: 400;
   color: black;
   font-size: 1.25rem;
 }
 
-header nav a:hover {
+header nav a:hover,
+footer nav a:hover {
   animation: 0.5s linear 0s slide alternate infinite;
 }
 
@@ -229,10 +230,6 @@ header nav a:hover {
 
 /* Hero
 ========================================================================== */
-
-img {
-  width: 100%;
-}
 
 h1,
 h2,
@@ -285,9 +282,8 @@ aside h4 {
 ========================================================================== */
 
 footer {
+  padding: 0rem 4rem 1rem 4rem;
   margin-top: 4rem;
-  width: 100%;
-  padding-bottom: 1rem;
 }
 
 footer address a,
@@ -295,11 +291,14 @@ footer small {
   font-weight: 300;
 }
 
-footer section {
+footer nav {
   width: 100%;
-  margin-bottom: 2rem;
 }
 
-footer nav {
-  width: 50%;
+footer address a {
+  margin-bottom: 0.5rem;
+}
+
+footer small {
+  margin-bottom: 1rem;
 }

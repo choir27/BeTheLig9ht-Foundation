@@ -3,6 +3,8 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/300.css";
 import "../css/global.css";
 import Script from "next/script";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function RootLayout({
   children, // will be a page or nested layout
@@ -20,7 +22,11 @@ export default function RootLayout({
         ></Script>
         <title>BeTheLi9ht Foundation</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

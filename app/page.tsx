@@ -1,22 +1,21 @@
 "use client";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import styles from "../css/styles.module.css";
 import Logo from "../assets/Logo.png";
 import Cory from "../assets/Cory.png";
-import SuicideAndCrisisLifeLine from "../assets/SuicideAndCrisisLifeLine.png";
+import SuicideAndCrisisLifeLine from "../assets/Suicide_And_Crisis_Life_Line.png";
 import { Button } from "../components/Buttons";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className={`${styles.flex} ${styles.column} ${styles.alignCenter}`}>
-      <Header />
       <article
         className={`${styles.flex} ${styles.alignCenter} ${styles.hero}`}
       >
         <div className={styles.imageContainer}>
-          <img
-            src={Logo.src}
+          <Image
+            src={Logo}
+            width={900}
             alt="Be The Light Foundation purple circle Logo, with hands holding in the center with a yellow sun in the background"
           />
         </div>
@@ -59,7 +58,11 @@ export default function Home() {
         </div>
 
         <div className={styles.imageContainer}>
-          <img src={Cory.src} alt="portrait photograph of Coby St. Phard" />
+          <Image
+            width={800}
+            src={Cory}
+            alt="portrait photograph of Coby St. Phard"
+          />
         </div>
       </article>
 
@@ -83,14 +86,12 @@ export default function Home() {
         <h3>National Suicide Prevention LifeLine: 988</h3>
 
         <div>
-          <img
-            src={SuicideAndCrisisLifeLine.src}
+          <Image
+            src={SuicideAndCrisisLifeLine}
             alt="Suicide and Crisis LifeLine Logo"
           />
         </div>
       </aside>
-
-      <Footer />
     </main>
   );
 }

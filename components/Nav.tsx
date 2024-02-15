@@ -11,7 +11,7 @@ export default function Nav() {
           <ButtonLink href="/" text="Home" />
         </li>
         <li>
-          <ButtonLink href="/" text="About Us" />
+          <ButtonLink href="/about-us" text="About Us" />
         </li>
         <li>
           <ButtonLink href="/" text="BeTheLi9ht Center" />
