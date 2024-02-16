@@ -93,8 +93,13 @@
 
 .hero,
 .origin {
-  background: #f2f3fb;
   width: 100%;
+}
+
+.hero,
+.origin,
+.about_hero {
+  background: #f2f3fb;
 }
 
 .hero .imageContainer {
@@ -191,3 +196,6 @@ aside .imageContainer {
   width: 35%;
   margin-bottom: 0.5rem;
 }
+
+/* About
+========================================================================== */

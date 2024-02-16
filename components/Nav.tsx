@@ -1,29 +1,67 @@
+"use client";
+import React from "react";
 import { ButtonLink } from "./Buttons";
 import styles from "../css/styles.module.css";
+import { usePathname } from "next/navigation";
 
 export default function Nav() {
+  const pathname = usePathname();
+
+  const urls = {
+    home: pathname.length == 1,
+    about: pathname.includes("about"),
+    light: pathname.includes("bethelig9ht-center"),
+    sponsor: pathname.includes("sponsors"),
+    events: pathname.includes("events-gallery"),
+    contact: pathname.includes("contact-us"),
+  };
+
   return (
     <nav>
       <ul
         className={`${styles.flex} ${styles.justifyBetween} ${styles.alignCenter}`}
       >
-        <li className={styles.active}>
-          <ButtonLink href="/" text="Home" />
+        <li>
+          <ButtonLink
+            className={urls.home ? styles.active : ""}
+            href="/"
+            text="Home"
+          />
         </li>
         <li>
-          <ButtonLink href="/about-us" text="About Us" />
+          <ButtonLink
+            className={urls.about ? styles.active : ""}
+            href="/about-us"
+            text="About Us"
+          />
         </li>
         <li>
-          <ButtonLink href="/" text="BeTheLi9ht Center" />
+          <ButtonLink
+            className={urls.light ? styles.active : ""}
+            href="/betheli9ht-center"
+            text="BeTheLi9ht Center"
+          />
         </li>
         <li>
-          <ButtonLink href="/" text="Sponsors" />
+          <ButtonLink
+            className={urls.sponsor ? styles.active : ""}
+            href="/sponsors"
+            text="Sponsors"
+          />
         </li>
         <li>
-          <ButtonLink href="/" text="Events" />
+          <ButtonLink
+            className={urls.events ? styles.active : ""}
+            href="/events-gallery"
+            text="Events"
+          />
         </li>
         <li>
-          <ButtonLink href="/" text="Contact Us" />
+          <ButtonLink
+            className={urls.contact ? styles.active : ""}
+            href="/contact-us"
+            text="Contact Us"
+          />
         </li>
         <li>
           <ButtonLink href="/" text="More" />
