@@ -8,7 +8,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className={`${styles.flex} ${styles.column} ${styles.alignCenter}`}>
+    <main
+      className={`${styles.flex} ${styles.column} ${styles.alignCenter}`}
+      id="home"
+    >
       <article
         className={`${styles.flex} ${styles.alignCenter} ${styles.hero}`}
       >

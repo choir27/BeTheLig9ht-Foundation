@@ -268,12 +268,12 @@ input {
   border-bottom: 1px solid black;
 }
 
-aside h3 {
+#home aside h3 {
   font-weight: 700;
   margin-bottom: 2rem;
 }
 
-aside h4 {
+#home aside h4 {
   font-weight: 300;
   margin-bottom: 1.5\rem;
 }
@@ -305,3 +305,8 @@ footer small {
 
 /* About
 ========================================================================== */
+
+#about h4 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
