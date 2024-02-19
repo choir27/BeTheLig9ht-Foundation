@@ -55,6 +55,32 @@
   align-items: flex-start;
 }
 
+/* Button
+========================================================================== */
+
+.about_buttons {
+  max-width: 100%;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.button {
+  background: rgb(29, 43, 79);
+  color: rgb(250, 250, 250);
+  border-radius: 3rem;
+  min-height: 3.5rem;
+  font-weight: 700;
+  padding: 0.5rem 2.5rem;
+  text-align: center;
+  max-width: 100%;
+  width: auto;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
 /*Header
 ========================================================================== */
 
@@ -197,5 +223,24 @@ aside .imageContainer {
   margin-bottom: 0.5rem;
 }
 
-/* About
+/*About
 ========================================================================== */
+
+.aside {
+  background: #f2f3fb;
+  padding: 4rem 0rem;
+  min-width: 40%;
+}
+
+/*About Hero
+========================================================================== */
+
+.about_hero {
+  padding: 2rem;
+}
+
+.about_hero p {
+  padding-top: 2rem;
+  line-height: 2;
+  font-size: 1.2rem;
+}

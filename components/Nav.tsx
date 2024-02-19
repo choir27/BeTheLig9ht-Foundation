@@ -10,7 +10,7 @@ export default function Nav() {
   const urls = {
     home: pathname.length == 1,
     about: pathname.includes("about"),
-    light: pathname.includes("bethelig9ht-center"),
+    light: pathname.includes("betheli9ht-center"),
     sponsor: pathname.includes("sponsors"),
     events: pathname.includes("events-gallery"),
     contact: pathname.includes("contact-us"),
