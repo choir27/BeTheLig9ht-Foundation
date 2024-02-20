@@ -3,7 +3,12 @@ import Link from "next/link";
 
 export function ButtonLink(button: ButtonLinkInterface) {
   return (
-    <Link href={button.href} key={button.key} className={button.className}>
+    <Link
+      href={button.href}
+      key={button.key}
+      className={button.className}
+      target={button?.target ? "_blank" : ""}
+    >
       {button.text}
     </Link>
   );
