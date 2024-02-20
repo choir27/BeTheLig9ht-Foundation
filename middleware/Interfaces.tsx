@@ -3,6 +3,7 @@ export interface ButtonLinkInterface {
   href: string;
   className?: string;
   key?: string;
+  target?: boolean;
 }
 
 export interface ButtonInterface extends ButtonLinkInterface {

@@ -5,6 +5,7 @@ import Cory from "../assets/Cory.png";
 import SuicideAndCrisisLifeLine from "../assets/Suicide_And_Crisis_Life_Line.png";
 import { Button } from "../components/Buttons";
 import Image from "next/image";
+import {home_content} from "./content";
 
 export default function Home() {
   return (
@@ -25,11 +26,8 @@ export default function Home() {
         <section
           className={`${styles.flex} ${styles.column} ${styles.alignCenter}`}
         >
-          <h3>Welcome</h3>
-          <h2>
-            BeTheLi9ht <br /> Foundation
-          </h2>
-          <h4>In Memory of Copy St. Phard</h4>
+          <h2>{home_content.hero.h2}</h2>
+          <h4>{home_content.hero.h4}</h4>
         </section>
       </article>
 

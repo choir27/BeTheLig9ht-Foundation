@@ -244,3 +244,16 @@ aside .imageContainer {
   line-height: 2;
   font-size: 1.2rem;
 }
+
+/*Center
+========================================================================== */
+
+.list li {
+  list-style: circle;
+  margin-bottom: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+.list {
+  margin: 1.5rem 0rem;
+}

@@ -310,3 +310,35 @@ footer small {
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
+/* Center
+========================================================================== */
+
+#center h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#center h3,
+#center h4 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+#center p {
+  line-height: 1.95;
+  width: 80%;
+  padding-bottom: 2rem;
+}
+
+#center section {
+  width: 50%;
+}
+
+#center li h4 + span {
+  font-size: 1.25rem;
+}
+
+#center li h3 + span {
+  margin-left: 2rem;
+}
