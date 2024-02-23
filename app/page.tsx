@@ -5,7 +5,7 @@ import Cory from "../assets/Cory.png";
 import SuicideAndCrisisLifeLine from "../assets/Suicide_And_Crisis_Life_Line.png";
 import { Button } from "../components/Buttons";
 import Image from "next/image";
-import {home_content} from "./content";
+import { home_content } from "./content";
 
 export default function Home() {
   return (

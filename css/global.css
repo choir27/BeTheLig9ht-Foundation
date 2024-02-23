@@ -342,3 +342,18 @@ footer small {
 #center li h3 + span {
   margin-left: 2rem;
 }
+
+/* Sponsors
+========================================================================== */
+
+#sponsors div {
+  margin: 4rem 0;
+}
+
+#sponsors h3 {
+  font-size: 2rem;
+}
+
+#sponsors img {
+  margin-right: 2rem;
+}
