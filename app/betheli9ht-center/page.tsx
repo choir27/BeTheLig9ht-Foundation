@@ -91,6 +91,8 @@ export default function beTheLightCenter() {
         </ol>
 
         <section>
+        <Image src={Center_Flyer} alt="" width={500} />
+
           <Aside
             heading="View Memories"
             buttonElement={Button({
@@ -101,7 +103,6 @@ export default function beTheLightCenter() {
             })}
           />
 
-          <Image src={Center_Flyer} alt="" width={500} />
         </section>
       </article>
     </main>
