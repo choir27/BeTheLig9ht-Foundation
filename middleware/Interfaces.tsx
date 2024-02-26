@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 
 export interface ButtonLinkInterface {
-  text: string;
+  text: string | JSX.Element;
   href: string;
   className?: string;
   key?: string;
@@ -22,4 +22,10 @@ export interface SponsorInterface {
   source: StaticImageData | string;
   alt: string;
   type: string;
+}
+
+export interface Drop_Down_Menu_Interface{
+  text: string,
+  options: string[],
+  className?: string
 }
