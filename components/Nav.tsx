@@ -3,6 +3,7 @@ import React from "react";
 import { ButtonLink } from "./Buttons";
 import styles from "../css/styles.module.css";
 import { usePathname } from "next/navigation";
+import Drop_Down_Menu from "./Drop_Down_Menu";
 
 export default function Nav() {
   const pathname = usePathname();
@@ -49,13 +50,7 @@ export default function Nav() {
             text="Sponsors"
           />
         </li>
-        <li>
-          <ButtonLink
-            className={urls.events ? styles.active : ""}
-            href="/events-gallery"
-            text="Events"
-          />
-        </li>
+        <Drop_Down_Menu text="Events" options={["calendar", "betheli9ht/be-the-music", "events gallery", "coby classic"]}/>
         <li>
           <ButtonLink
             className={urls.contact ? styles.active : ""}

@@ -264,3 +264,49 @@ aside .imageContainer {
 .full_W {
   width: 100%;
 }
+
+
+/*Nav
+========================================================================== */
+
+@keyframes slide {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 10%;
+  }
+}
+
+.drop_down_menu{
+  position: absolute; 
+  margin-top: 1rem;
+  padding: 2rem;
+  background: white;
+  box-shadow: 2px 4px 4px rgb(215, 196, 196);
+ width: auto;
+ }
+
+
+ .drop_down_menu a{
+  text-transform: capitalize;
+   margin-bottom: 1rem;
+ }
+ 
+ .menu_button{
+   font-weight: 400;
+   color: black;
+   font-size: 1.25rem;
+   border: none;
+   background: none;
+   text-transform: none;
+   letter-spacing: 0.05rem;
+   line-height: 1;
+ }
+ 
+ .menu_button:hover {
+   animation: 0.5s linear 0s slide alternate infinite;
+   cursor: pointer;
+ }
+ 
